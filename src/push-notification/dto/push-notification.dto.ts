@@ -17,4 +17,6 @@ export class PushNotification {
   @ApiProperty()
   @IsString()
   data: string; // JSON data property
+  @IsString()
+  test: string;
 }
